@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <div className="pages">
+        <div className="pages" style={{paddingTop: '120px'}}>
           <Routes>
             <Route
               path="/"
